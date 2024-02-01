@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/cb06fec0a1.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="music-player">
+        <button id="play-list">
+            <i class="fa-solid fa-angle-down"></i>
+        </button>
+
+        <img src="" alt="" id="song-image">
+        
+        <div class="song-details">
+            <p id="song-name"></p>
+            <p id="song-artist"></p>
+        </div>
+
+        <!-- buttons -->
+
+        <div class="player-options">
+            <button id="shuffle">
+                <i class="fa-solid fa-shuffle"></i>
+            </button>
+            <button  id="prev">
+                <i class="fa-solid fa-backward-step"></i>
+            </button>
+            <button id="play">
+                <i class="fa-solid fa-play" ></i>
+            </button>
+            <button id="pause" class="hide">
+                <i class="fa-solid fa-pause"></i>
+            </button>
+            <button  id="next">
+                <i class="fa-solid fa-forward-step"></i>
+            </button>
+            <button id="repeat">
+                <i class="fa-solid fa-repeat"></i>
+            </button>
+        </div>
+
+<!-- ses -->
+<audio id="audio" src="assets/girkanima.mp3" preload="metadata"></audio>
+
+
+        <div id="progress-bar">
+            <div id="current-progress"></div>
+        </div>
+<!-- zaman taşıyıcı -->
+        <div class="time-container">
+            <p id="current-time">01.32</p>
+            <p id="max-duration">03.55</p>
+        </div>
+
+        <div class="hide" id="playlist-container">
+            <button  id="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul id="playlist-songs">
+
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
