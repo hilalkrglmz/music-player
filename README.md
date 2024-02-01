@@ -1,7 +1,6 @@
 
 
-
-https://github.com/hilalkrglmz/music-player/assets/140657703/d57e5594-971c-4c65-8b1f-feed87ff378e
+https://github.com/hilalkrglmz/music-player/assets/140657703/cb5f20e7-143c-41f5-b1ec-1422f418df6e
 
 
 
